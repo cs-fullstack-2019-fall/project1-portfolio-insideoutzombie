@@ -15,8 +15,8 @@
 }
 
 .github {
-  margin-right: 5%;
-  margin-left: 5%
+  margin-right: 14%;
+  margin-left: 14%
 }
 
 #root-image {
@@ -48,6 +48,14 @@
   color: white;
 }
 
+#page-footer-ctpg {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: -16%;
+  color: white;
+}
+
+
 #about-img {
   width: 50%;
   margin-left: 25%;
@@ -61,6 +69,12 @@
 
 #idea-img {
   margin-left: 40%;
+}
+
+.reflect-container {
+  width: 50%;
+  margin-left: 21%;
+  word-spacing: 5px;
 }
 
 .resume-page {
