@@ -31,12 +31,20 @@
 
 #resume {
   width: 45%;
-  margin-left: 25%;
+  margin-left: 45%;
+  margin-top: -20%;
+}
+
+#self-img {
+  width: 30%;
+  height: 350px;
+  margin-left: 10%;
+  margin-top: 1%;
 }
 
 #page-footer {
   text-align: center;
-  margin-bottom: -15%;
+  margin-bottom: -16%;
   color: white;
 }
 
@@ -48,8 +56,28 @@
 #aboutme {
   margin-left: 40%;
   font-size: 90px;
-  margin-top: -6%;
-  color: white;
+  color: blue;
+}
+
+#idea-img {
+  margin-left: 40%;
+}
+
+.resume-page {
+  background-color: #8ec3eb;
+
+}
+
+#reflecth1 {
+  margin-left: 36%;
+  font-size: 50px;
+  color: blue;
+}
+
+#reflecth2 {
+  margin-left: 27%;
+  font-size: 50px;
+  color: blue;
 }
 
 .img-bottom {
@@ -57,6 +85,12 @@
   vertical-align: middle;
   border-style: none;
   width: 50%;
+}
+
+.p-container {
+  width: 50%;
+  margin-left: 25%;
+  word-spacing: 4px;
 }
 
 .bottom-row {
@@ -74,5 +108,5 @@ p {
 }
 
 .img-ani {
-  margin-left: 50%;
+  margin-left: 40%;
 }
