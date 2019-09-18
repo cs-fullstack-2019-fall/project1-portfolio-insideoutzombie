@@ -104,10 +104,41 @@
 /* ---> REFLECTIONS PAGE STYLES END <--- */
 
 /* ---> RESUME PAGE STYLES START <-- */
+#content {
+  float: left;
+}
+
+#content h2 {
+  color: #3084c5;
+  margin-left: 5%;
+}
+
 #resume {
   width: 45%;
   margin-left: 45%;
   margin-top: -20%;
+}
+
+#self-img {
+  width: 37%;
+  float: right;
+  margin-right: 7%;
+  margin-top: 2%;
+}
+
+#resume-img {
+  margin-left: 5%;
+}
+
+.resume-form {
+  width: 50%;
+  height: 500px;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.invis-margin {
+  margin-top: 5%;
 }
 
 .resume-page {
@@ -126,12 +157,7 @@
   max-height: 500px;
 }
 
-#self-img {
-  width: 30%;
-  height: 350px;
-  margin-left: 10%;
-  margin-top: 1%;
-}
+
 
 #about-img {
   width: 50%;
