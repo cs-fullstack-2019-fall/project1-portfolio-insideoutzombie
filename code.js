@@ -1,16 +1,18 @@
-window.addEventListener("load", function(){
-	var delay = 2;
-	var nodes = document.querySelectorAll
-(".animate");
-	for(var i=0; i<nodes.length; i++){
-		var words = nodes[i].innerText.split(" ");
-		nodes[i].innerHTML = "";
-for(var i2=0; i2<words.length; i2++){
-			var item = document.createElement("span");
-			item.innerText = words[i2];
-			var calc = (delay+((nodes.length + i2)/3));
-	item.style.animationDelay = calc+"s";
-			nodes[i].appendChild(item);
+let acc = document.getElementsByClassName("accordion");
+let i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    let panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
 }
-	}
-});

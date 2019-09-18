@@ -1,45 +1,11 @@
-.bg-red {
-  background-color: #ff4242;
-  border-bottom: 2px solid black;
-  opacity: 0.8;
-}
-
-#open-txt {
-  margin-top: 2%;
-  text-align: center;
-  font-size: 30px;
-}
-
+/* ---> TOP MENU BAR & BOTTOM FOOTER STYLES START <--- */
 #bottom-layout {
   text-align: center;
-}
-
-.github {
-  margin-right: 14%;
-  margin-left: 14%
-}
-
-#root-image {
-  width: 100%;
-  max-height: 500px;
 }
 
 #bottom-image {
   width: 100%;
   max-height: 230px;
-}
-
-#resume {
-  width: 45%;
-  margin-left: 45%;
-  margin-top: -20%;
-}
-
-#self-img {
-  width: 30%;
-  height: 350px;
-  margin-left: 10%;
-  margin-top: 1%;
 }
 
 #page-footer {
@@ -55,6 +21,117 @@
   color: white;
 }
 
+.nav-link {
+  font-size: 30px;
+}
+
+.img-bottom {
+  height: 205px;
+  vertical-align: middle;
+  border-style: none;
+  width: 50%;
+}
+/* ---> TOP MENU BAR & BOTTOM FOOTER STYLES END <--- */
+
+/* ---> CONTACT PAGE STYLES START <--- */
+#label-github {
+  margin-left: -19.5%;
+  margin-bottom: 4%;
+}
+
+#contacth2 {
+  margin-left: 28%;
+  font-size: 40px;
+  color: blue;
+}
+
+#contacth1 {
+  margin-left: 36%;
+  font-size: 50px;
+  color: blue;
+}
+
+.github {
+  margin-left: 14%
+}
+
+.linkedin {
+  float: right;
+  margin-right: 18%;
+  margin-top: -7.5%;
+}
+
+.contact-img {
+  height: 125px;
+}
+
+.google-form {
+  width: 45%;
+  margin-left: 25%;
+  margin-top: -8%;
+}
+
+.contact-btn {
+  width: 35%;
+  margin-left: 30%;
+  margin-top: -10%;
+}
+/* ---> CONTACT PAGE STYLES END <--- */
+
+/* ---> REFLECTIONS PAGE STYLES START <--- */
+#idea-img {
+  margin-left: 42%;
+}
+
+#reflecth1 {
+  margin-left: 38%;
+  font-size: 50px;
+  color: blue;
+}
+
+#reflecth2 {
+  margin-left: 27%;
+  font-size: 50px;
+  color: blue;
+}
+
+.reflect-container {
+  width: 50%;
+  margin-top: 1%;
+  margin-left: 24%;
+  word-spacing: 5px;
+}
+/* ---> REFLECTIONS PAGE STYLES END <--- */
+
+/* ---> RESUME PAGE STYLES START <-- */
+#resume {
+  width: 45%;
+  margin-left: 45%;
+  margin-top: -20%;
+}
+
+.resume-page {
+  background-color: #8ec3eb;
+}
+/* ---> RESUME PAGE STYLES END <-- */
+
+#open-txt {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 30px;
+}
+
+#root-image {
+  width: 100%;
+  max-height: 500px;
+}
+
+#self-img {
+  width: 30%;
+  height: 350px;
+  margin-left: 10%;
+  margin-top: 1%;
+}
 
 #about-img {
   width: 50%;
@@ -67,38 +144,10 @@
   color: blue;
 }
 
-#idea-img {
-  margin-left: 40%;
-}
-
-.reflect-container {
-  width: 50%;
-  margin-left: 21%;
-  word-spacing: 5px;
-}
-
-.resume-page {
-  background-color: #8ec3eb;
-
-}
-
-#reflecth1 {
-  margin-left: 36%;
-  font-size: 50px;
-  color: blue;
-}
-
-#reflecth2 {
-  margin-left: 27%;
-  font-size: 50px;
-  color: blue;
-}
-
-.img-bottom {
-  height: 205px;
-  vertical-align: middle;
-  border-style: none;
-  width: 50%;
+.bg-red {
+  background-color: #ff4242;
+  border-bottom: 2px solid black;
+  opacity: 0.8;
 }
 
 .p-container {
@@ -112,15 +161,15 @@
 
 }
 
-p {
-  white-space: pre-wrap;
-  text-align: center;
-}
-
 .col {
   margin-bottom: 5%;
 }
 
 .img-ani {
   margin-left: 40%;
+}
+
+p {
+  white-space: pre-wrap;
+  text-align: center;
 }
