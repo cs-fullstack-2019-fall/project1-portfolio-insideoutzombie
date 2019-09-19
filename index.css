@@ -21,8 +21,15 @@
   color: white;
 }
 
+.bg-red {
+  background-color: #fe0000;
+  border-bottom: 2px solid black;
+  /* opacity: 2.8; */
+}
+
 .nav-link {
-  font-size: 30px;
+  font-size: 35px;
+  font-weight: bolder;
 }
 
 .img-bottom {
@@ -146,6 +153,19 @@
 }
 /* ---> RESUME PAGE STYLES END <-- */
 
+/* ---> PROJECT PAGE STYLES START <--- */
+#project-img {
+
+}
+
+#project {
+  
+}
+
+
+/* ---> PROJECT PAGE STYLES END <--- */
+
+
 #open-txt {
   margin-top: 2%;
   text-align: center;
@@ -157,8 +177,6 @@
   max-height: 500px;
 }
 
-
-
 #about-img {
   width: 50%;
   margin-left: 25%;
@@ -168,12 +186,6 @@
   margin-left: 40%;
   font-size: 90px;
   color: blue;
-}
-
-.bg-red {
-  background-color: #ff4242;
-  border-bottom: 2px solid black;
-  opacity: 0.8;
 }
 
 .p-container {
