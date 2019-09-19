@@ -159,13 +159,32 @@
 }
 
 #project {
-  
+
 }
 
 
 /* ---> PROJECT PAGE STYLES END <--- */
 
+/* ---> ABOUT ME PAGE STYLES START <--- */
 
+#about-img {
+  width: 50%;
+  margin-left: 22%;
+}
+
+#aboutme {
+  margin-left: 36%;
+  font-size: 90px;
+  color: blue;
+}
+
+.p-container {
+  width: 50%;
+  margin-left: 22%;
+  word-spacing: 4px;
+}
+
+/* ---> ABOUT ME PAGE STYLES END <--- */
 #open-txt {
   margin-top: 2%;
   text-align: center;
@@ -177,22 +196,6 @@
   max-height: 500px;
 }
 
-#about-img {
-  width: 50%;
-  margin-left: 25%;
-}
-
-#aboutme {
-  margin-left: 40%;
-  font-size: 90px;
-  color: blue;
-}
-
-.p-container {
-  width: 50%;
-  margin-left: 25%;
-  word-spacing: 4px;
-}
 
 .bottom-row {
   display: inline;
