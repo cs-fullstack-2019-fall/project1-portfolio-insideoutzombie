@@ -185,12 +185,16 @@
 }
 
 /* ---> ABOUT ME PAGE STYLES END <--- */
+
+/* ---> HOME PAGE STYLES START <--- */
 #open-txt {
   margin-top: 2%;
+  margin-bottom: 2%;
   text-align: center;
   font-size: 30px;
 }
 
+/* ---> HOME PAGE STYLES END <--- */
 #root-image {
   width: 100%;
   max-height: 500px;
