@@ -56,3 +56,6 @@ Make sure you include the following pages:
 - http://sorenromer.com/
 - https://www.clemsonwebdesign.com/
 - https://daneden.github.io/animate.css/
+
+### Kenn's Notes:
+Projects are not on the page, the contact page is not similar to the rest, and about me has a giant blank space on it.
